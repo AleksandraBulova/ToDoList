@@ -1,0 +1,112 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/image/background.jpg);
+}
+
+.wrapper {
+  padding: 15px 150px;
+}
+
+h1 {
+  margin: 0;
+  margin-right: 150px;
+  color: #ffffff;
+  font-size: 70px;
+  font-family: 'Dosis', sans-serif;
+  text-align: end;
+}
+
+.enter_to_do_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 10px;
+  height: 35px;
+  width: 500px;
+  background-color: #ffffff;
+  border:2px solid #000000;
+  border-radius: 15px;
+}
+
+.enter_to_do_list input{
+  outline: none;
+  margin: 0;
+  padding-left: 15px;
+  width: 400px;
+  font-family: 'Dancing Script', 'Pacifico', cursive;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+.button_add {
+  width: 80px;
+  font-family: 'Dosis', sans-serif;
+  color: #808080;
+  background-color: #000000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button_add:hover {
+  color: #ffffff;
+
+}
+
+::placeholder {
+  font-weight: normal;
+  font-family: 'Dancing Script', 'Pacifico', cursive;
+  font-size: 25px;
+  color: #808080;
+}
+
+.list_of_all_cases {
+  margin-top: 50px;
+  padding: 10px;
+  height: 100%;
+  width: 500px;
+  background-color: #ffffff;
+  border:2px solid #000000;
+  border-radius: 15px;
+}
+
+.list_of_all_cases form {
+  padding-left: 15px;
+  font-family: 'Dancing Script', 'Pacifico', cursive;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 14px;
+}
+
+.list_of_all_cases input {
+  margin-right: 10px;
+}
+
+.cart {
+  width: 25px;
+  height: 25px;
+}
+
+.strikethrough {
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.line.active {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.line_point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+
+
