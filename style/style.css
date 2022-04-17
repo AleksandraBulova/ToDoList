@@ -1,7 +1,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url(./image/background.jpg);
+/*   background-image: url(./image/background.jpg); */
+  background-image: url("https://aleksandrabulova.github.io/ToDoList/image/background.jpg");
 }
 
 .wrapper {
